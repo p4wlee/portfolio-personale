@@ -1,0 +1,30 @@
+@use "../variables" as *;
+
+.custom-breadcrumb {
+  background-color: $primary-color;
+  position: relative;
+  padding: 15px 100px;
+  z-index: 10;
+
+  .breadcrumb {
+    margin-bottom: 0;
+    $--bs-breadcrumb-divider-color: #ffffff;
+
+    &-item {
+      a {
+        color: $text-color !important;
+        font-weight: bold !important;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      &.active {
+        color: $secondary-color !important;
+        font-weight: bold !important;
+      }
+    }
+  }
+}

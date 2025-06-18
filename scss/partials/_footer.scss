@@ -1,0 +1,44 @@
+@use "../variables" as *;
+
+footer {
+  background-color: $primary-color;
+  color: $text-color;
+  min-height: 60px;
+  width: 100%;
+
+  @media (max-width: 767.98px) {
+    min-height: auto;
+    padding-bottom: 1.5rem;
+
+    #social-footer-mobile {
+      display: flex !important;
+      justify-content: center;
+      margin: 0.5rem auto;
+      gap: 12px;
+
+      a img {
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+        filter: brightness(0) saturate(100%) invert(69%) sepia(98%) saturate(1325%) hue-rotate(1deg) brightness(104%) contrast(104%);
+      }
+
+      @media (min-width: 575px) {
+        flex-wrap: nowrap;
+        max-width: 100%;
+      }
+
+      @media (max-width: 574.98px) {
+        flex-wrap: wrap;
+        max-width: 96px;
+      }
+    }
+
+    .site-logo {
+      position: static !important;
+      text-align: center;
+      margin-top: 1rem;
+      padding: 0 !important;
+    }
+  }
+}
