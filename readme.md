@@ -1,7 +1,10 @@
 # Portfolio Personale - Davide Paulicelli
 
-## Descrizione del progetto
-Questo progetto consiste nella realizzazione di un sito web personale interamente sviluppato in HTML e CSS, con l'obiettivo di mostrare la mia personalità, le mie competenze e i miei progetti a potenziali datori di lavoro o collaboratori. Il sito funge da portfolio digitale e include informazioni professionali e personali selezionate per rappresentare al meglio le mie abilità.
+## Descrizione
+Benvenuto nel mio portfolio personale!  
+Questo sito è stato sviluppato principalmente con **HTML e SCSS/CSS** ed è pensato per mostrare in modo chiaro e professionale le mie competenze, i miei progetti e la mia esperienza.  
+
+Il portfolio include sezioni su bio, progetti realizzati e contatti, con un sistema di messaggistica funzionante grazie a **EmailJS**, che permette di inviare email direttamente dal sito senza server backend. 
 
 🔗 **Visualizza il portfolio online:** [https://p4wlee.github.io/portfolio-personale/](https://p4wlee.github.io/portfolio-personale/)
 
